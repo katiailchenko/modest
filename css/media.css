@@ -1,0 +1,369 @@
+@media only screen and (max-width: 1100px) {
+	.header_content {
+		min-height: unset;
+	}
+
+	h1,
+	h2 {
+		font-size: 32px;	
+	}
+
+	.about_first {
+		width: calc(50% - 30px);
+	}
+
+	.about_second {
+		width: calc(50% - 30px);
+	}
+
+	.contact_form {
+		top: -52%;
+		width: calc(60% - 30px);
+	}
+
+	.contact_info {
+		width: calc(40% - 30px);
+	}	
+}
+
+@media only screen and (max-width : 920px) {
+	.logo {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	.menu_link {
+		justify-content: space-between;
+	}
+
+	.menu_link li {
+		font-size: 16px;
+		margin-top: 0;
+	}
+
+	.header_info {
+	padding: 150px 0 245px;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+	.header_button {
+		text-align: center;
+	}
+
+	h1 {
+		padding-bottom: 40px;
+	}
+
+	.about_content {
+		margin: 0;
+	}
+
+	.about_first,
+	.about_second  {
+		margin: 0;
+		width: 100%;
+	}
+
+	.about_second {
+		padding-top: 50px;
+	}
+
+	.social_link_top {
+		justify-content: center;
+	}
+
+	.team_photo {
+		margin-bottom: 45px;
+	}
+
+	.person {
+		width: calc(33.33% - 30px);
+		margin-bottom: 30px;
+	}
+
+	.pictures_button_link {
+		padding-bottom: 70px;
+	}
+
+	.pictures_items {
+		width: calc(50% - 30px);
+	}
+
+	.products {
+		margin-bottom: 20px;
+	}
+
+	.products_item {
+		width: calc(50% - 30px);
+	}
+
+	.contact_box {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 50px;
+	}
+
+	.contact_info,
+	.contact_form {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	form {
+		width: 100%;
+	}
+
+	.contact_form {
+		position: relative;
+		padding: 30px 0;
+	}
+
+	.contact .map {
+		display: none;
+	}
+
+	.form_container {
+		margin-top: 20px;
+	}
+
+	.form_top {
+		width: 100%;
+	}
+
+	.form_button {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.copyright {
+		width: 60%;
+	}
+
+	.footer_social {
+		width: 40%;
+	}
+
+@media only screen and (max-width : 920px) and (min-width: 700px) {
+	.features_item {
+		width: 100%;
+		margin: 0 -15px;
+		display: flex;
+
+	}
+
+	.features_wrap {
+		margin-left: 0;
+		margin-right: 0;
+		padding-bottom: 70px;
+	}
+
+	.features_item_image,
+	.features_item_info {
+		margin: 0 15px;
+		width: calc(50% - 30px);
+		margin-bottom: 30px;
+	}
+
+	.features_item_image {
+		padding-top: 0;
+		height: 200px;
+		
+	}
+
+	.features_item_info h4 {
+		margin-top: 0;
+	}
+
+}
+
+@media only screen and (max-width : 750px){
+	nav {
+		display: flex;
+		justify-content: center;
+	}
+
+	.menu_link {
+		width: 350px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 0;
+	}
+
+	.menu_link li {
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 17px;
+	}
+
+	.header_content {
+		background-position:  left;
+	}
+
+	.person {
+		width: calc(50% - 30px);
+	}
+
+	.copyright {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer_social {
+		width: 100%;
+		order: -1;
+	}
+
+	.footer_social_items {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}	
+}
+
+@media only screen and (max-width : 699px) and (min-width: 320px) {
+	.features_wrap  {
+		margin-left: 0;
+		margin-right: 0;
+		padding-bottom: 30px;
+	}
+
+	.features_item {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width : 500px) {
+	.header_info {
+		padding: 80px 0 80px;
+		width: 75%;
+	}
+
+	h1,
+	h2 {
+	font-size: 26px;	
+}
+
+.header_info p {
+	display: none;
+}
+
+.header_button .button:first-child {
+	margin: 0 0 20px;
+}
+
+.about_content {
+	padding-bottom: 30px;
+}
+
+h2.subtitle {
+	padding-top: 30px;
+}
+
+.name h4 {
+	font-size: 14px;
+}
+
+.name p {
+	font-size: 12px;
+}
+
+.team_photo {
+	margin-bottom: 30px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.person {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: calc(50% - 20px);
+	margin-bottom: 20px;
+}
+
+.pictures {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.pictures_items {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	width: calc(50% - 20px);
+}
+
+.pictures_button_link {
+	padding-bottom: 50px;
+}
+
+.services .subtitle {
+	padding-bottom: 30px;
+}
+
+.products {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+
+.products_item {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 30px;
+	width: 100%;
+	text-align: justify;
+}
+
+.products_item .icon {
+	margin-bottom: 15px;
+}
+
+.features .subtitle {
+	padding-top: 30px;
+}
+
+.contact_box {
+	margin-bottom: 50px;
+}
+
+.form_top_name {
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 25px;
+}
+
+.form_top_email {
+	width: 100%;
+	margin-left: 0;
+}
+
+.footer_wrap {
+	padding: 20px 0;
+}
+
+.copyright {
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

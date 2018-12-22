@@ -676,15 +676,12 @@ h4 {
 
 .form_top_name {
 	width: calc(50% - 7.5px);
+	margin-right: 7.5px;
 }
 
 .form_top_email {
 	width: calc(50% - 7.5px);
 	margin-left: 7.5px;
-}
-
-.form_top_name {
-	margin-right: 7.5px;
 }
 
 .form_bot {
@@ -727,11 +724,6 @@ footer {
 	background-color: #3a454d;
 }
 
-.copyright {
-	font-size: 14px;
-	color: #fff;
-}
-
 .footer_wrap {
 	display: flex;
 	flex-wrap: wrap;
@@ -741,6 +733,11 @@ footer {
 .copyright,
 .footer_social {
 	width: 50%;
+}
+
+.copyright {
+	font-size: 14px;
+	color: #fff;
 }
 
 .footer_social {
