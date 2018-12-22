@@ -15,7 +15,7 @@ body {
 
 .container {
 	width: 90%;
-	max-width: 1170px;
+	max-width: 1138px;
 	margin: 0 auto;	
 }
 
@@ -31,7 +31,7 @@ a {
 }
 
 p {
-	line-height: 1.8em;
+	line-height: 1.7em;
 }
 
 header {
@@ -40,6 +40,7 @@ header {
 
 .top_menu {
 	background-color: #1d2126;
+	min-height: 80px;
 }
 
 .logo {
@@ -57,7 +58,6 @@ header {
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
-	padding: 7px 8px;
 	border: 2px solid transparent;
 	border-radius: 5px;
 	margin: 24px 13px;
@@ -65,7 +65,9 @@ header {
 }
 
 .menu_link a {
-	transition: color .1s;	
+	display: block;
+	transition: color .1s;
+	padding: 7px 8px;	
 }
 
 .menu_link li:nth-child(1) {
@@ -96,6 +98,7 @@ header {
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
+	min-height: 660px;
 }
 
 .header_info {
@@ -119,12 +122,12 @@ h2 {
 
 h1 {
 	color: #f2f2f4;
-	padding-bottom: 27px;
+	padding-bottom: 17px;
 }
 
 .header_info p {
 	color: #ccd0d7;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 }
 
 .button {
@@ -134,14 +137,18 @@ h1 {
 	font-size: 14px;
 	color: #fff;
 	text-transform: uppercase;
-	padding: 15px 20px;
+	padding: 14px 21px;
 	border: 2px solid;
 	border-radius: 8px;
 	transition: border-color .4s, background-color .4s;	
 }
 
+.header_button {
+	margin-left: 0px;
+}
+
 .header_button .button:first-child {
-	margin-right: 8px;
+	margin-right: 7px;
 }
 
 .header_button .button:hover {
@@ -153,10 +160,11 @@ h1 {
 	background-color: #fff;
 	position: relative;
 	border-bottom: 1px solid #dde1e4;
+	min-height: 614px;
 }
 
 h2.subtitle{
-	padding: 75px 0 50px 20px;
+	padding: 80px 0 50px 19px;
 	color: #292f36;
 }
 
@@ -172,7 +180,7 @@ h2.subtitle:before {
 .about_content {
 	display: flex;
 	flex-wrap: wrap;
-	padding-bottom: 100px;
+	padding-bottom: 55px;
 	margin: 0 -15px;
 }
 
@@ -182,11 +190,11 @@ h2.subtitle:before {
 }
 
 .about_first p:nth-child(1) {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .about_first p:nth-child(2) {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .social_link_top {
@@ -198,7 +206,7 @@ h2.subtitle:before {
 	font-size: 20px;
 	color: #fff;
 	background-color: #c8cdd0;
-	padding: 20px;
+	padding: 15px;
 	transition: background-color .4s, color .4s, border-color .4s, border-radius .4s;
 	border: 1px solid transparent;
 	margin-left: 1px;
@@ -219,7 +227,7 @@ h2.subtitle:before {
 	margin: 0 15px;
 	width: calc(42% - 30px);
 	position: relative;
-	padding-top: 5px;
+	padding-top: 7px;
 }
 
 .about_second_content {
@@ -229,11 +237,11 @@ h2.subtitle:before {
 h3 {
 	font-size: 18px;
 	color: #292f36;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 .result_one, .result_two, .result_three {
-	margin-bottom: 35px;
+	margin-bottom: 27px;
 }
 
 .result_one:before {
@@ -242,7 +250,7 @@ h3 {
 	font-weight: 700;
 	font-size: 20px;
 	color: #fff;
-	padding: 17px;
+	padding: 15px;
 	background-color: #23b7a4;
 	letter-spacing: .1em;
 	position: absolute;
@@ -255,7 +263,7 @@ h3 {
 	font-weight: 700;
 	font-size: 20px;
 	color: #fff;
-	padding: 17px;
+	padding: 15px;
 	background-color: #23b7a4;
 	position: absolute;
 	margin-left: -75px;
@@ -268,7 +276,7 @@ h3 {
 	font-weight: 700;
 	font-size: 20px;
 	color: #fff;
-	padding: 17px;
+	padding: 15px;
 	background-color: #23b7a4;
 	position: absolute;
 	margin-left: -75px;	
@@ -279,9 +287,13 @@ h3 {
 }
 
 .team_photo {
-	margin-bottom: 100px;
+	margin-bottom: 95px;
 	margin-left: -15px;
 	margin-right: -15px;
+}
+
+.team .subtitle {
+	padding-bottom: 55px;
 }
 
 .person {
@@ -383,6 +395,7 @@ h4 {
 
 .container h2.dark {
 	color: #fff;
+	padding-bottom: 55px;
 }
 
 .container h2.dark:before {
@@ -477,7 +490,7 @@ h4 {
 
 .pictures_button_link {
 	text-align: center;
-	padding: 25px 0 55px;
+	padding: 28px 0 58px;
 }
 
 .pictures_button_link .button {
@@ -494,7 +507,7 @@ h4 {
 }
 
 .services .subtitle {
-	padding-bottom: 80px;
+	padding-bottom: 75px;
 }
 
 .products {
@@ -502,13 +515,13 @@ h4 {
 	flex-wrap: wrap;
 	margin-left: -15px;
 	margin-right: -15px;
-	margin-bottom: 70px;
+	margin-bottom: 83px;
 }
 
 .products_item {
 	margin-left: 15px;
 	margin-right: 15px;
-	margin-bottom: 90px;
+	margin-bottom: 70px;
 	width: calc(25% - 30px);
 	position: relative;
 	overflow: hidden;
@@ -518,7 +531,7 @@ h4 {
 .products_item .icon {
 	color: #23b7a4;
 	font-size: 50px;
-	margin-bottom: 30px;
+	margin-bottom: 24px;
 	border-bottom: 1px solid transparent;
 	transition: transform .4s, border-color .4s;
 	transform: scale(1) translateZ(0);
@@ -530,18 +543,22 @@ h4 {
 }
 
 .product_descr h4 {
-	margin-bottom: 25px;
-	font-size: 18px;
+	margin-bottom: 20px;
+	font-size: 17px;
 }
 
 .features {
 	background-color: #3a454d;
 }
 
+.features .subtitle {
+	padding-top: 85px;
+}
+
 .features_item {
 	margin-left: 15px;
 	margin-right: 15px;
-	margin-bottom: 120px;
+	margin-bottom: 110px;
 	width: calc(33.333% - 30px);
 }
 
@@ -579,12 +596,17 @@ h4 {
 	background-color: #fff;
 }
 
+.contact .subtitle {
+	padding-top: 65px;
+	padding-bottom: 55px;
+}
+
 .contact_box {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: -15px;
 	margin-right: -15px;
-	margin-bottom: 100px;
+	margin-bottom: 95px;
 	position: relative;
 }
 
@@ -597,17 +619,21 @@ h4 {
 
 .contact_info h4 {
 	font-size: 18px;
-	margin-bottom: 40px;
+	margin-bottom: 32px;
 }
 
 .contact_info p.first {
-	margin-bottom: 30px;
+	margin-bottom: 24px;
 }
 
 .contact .map {
 	position: relative;
 	padding-top: 18%;
 	margin-bottom: 60px;
+}
+
+.contact .map {
+	background-color: #23b7a4;
 }
 
 .contact .map img {
@@ -617,12 +643,17 @@ h4 {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	transition: opacity 1.5s;
 }
+
+.contact .map img:hover {
+	opacity: .8;
+} 
 
 .contact_form {
 	background-color: #fff;
 	position: absolute;
-	top: -85%;
+	top: -90%;
 	right: 0;
 }
 
@@ -640,23 +671,24 @@ h4 {
 .form_top {
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .form_top_name {
-	width: calc(50% - 30px);
+	width: calc(50% - 7.5px);
 }
 
 .form_top_email {
-	width: 50%;
+	width: calc(50% - 7.5px);
+	margin-left: 7.5px;
 }
 
 .form_top_name {
-	margin-right: 30px;
+	margin-right: 7.5px;
 }
 
 .form_bot {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	width: 100%;
 }
 
@@ -726,7 +758,7 @@ footer {
 .footer_social .icon {
 	color: #fff;
 	font-size: 18px;
-	margin-left: 17px;
+	margin-left: 9px;
 	transition: color .4s;
 }
 
