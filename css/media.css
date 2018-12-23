@@ -47,8 +47,8 @@
 	}
 
 	.header_info {
-	padding: 150px 0 245px;
-	width: 70%;
+		padding: 150px 0 245px;
+		width: 70%;
 	margin: 0 auto;
 	text-align: center;
 	}
@@ -190,7 +190,6 @@
 	}
 
 	.menu_link {
-		width: 350px;
 		flex-wrap: wrap;
 		justify-content: space-around;
 		margin: 0;
@@ -352,17 +351,6 @@ h2.subtitle {
 .copyright {
 	font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
 }
 
 

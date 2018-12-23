@@ -1,0 +1,383 @@
+@media only screen and (min-width : 500px) {
+	.menu_link li {
+		font-size: 17px;
+	}
+
+	.header_info {
+		padding: 110px 0 110px;
+	}
+
+	.header_content {
+		background-position:  center;
+	}
+
+	p {text-align: left;}
+
+	.header_info p {
+	text-align: center;
+	display: block;
+	color: #ccd0d7;
+	padding-bottom: 30px;
+	}
+
+	.header_button {
+		flex-direction: row;
+	}
+
+	.header_button .button {
+		margin: 0 7px;
+	}
+
+	.team_photo {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.person {
+		margin-left: 15px;
+		margin-right: 15px;
+		width: calc(50% - 30px);
+		margin-bottom: 30px;
+	}
+
+	.pictures {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.pictures_items {
+		margin-bottom: 30px;
+		margin-left: 15px;
+		margin-right: 15px;
+		width: calc(50% - 30px);
+	}
+
+	.products {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.products_item {
+		margin-left: 15px;
+		margin-right: 15px;
+		width: calc(50% - 30px);
+	}
+
+	.form_top {
+		margin: 0 -7.5px;
+		margin-bottom: 25px;
+	}
+
+	.form_top_name {
+		margin-bottom: 0;
+	}
+
+	.form_top_name,
+	.form_top_email {
+		width: calc(50% - 30px);
+		margin: 0 7.5px;
+	}
+}
+
+@media only screen and (min-width: 750px) {
+	.flex_container {
+		flex-direction: row;
+		justify-content: space-between; 
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.top_menu {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.logo {
+		display: inline-block;
+		text-align: left;
+	}
+
+	.menu_link {
+		width: 100%;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		margin: 0 -5px;
+	}
+
+	.menu_link li {
+		font-size: 14px;
+		margin: 24px 5px;
+	}
+
+	.header_content {
+		text-align: left;
+	}
+
+	.header_info {
+		padding: 150px 0 200px;
+		width: 70%;
+		margin: 0;
+	}
+
+	.header_info p {
+		text-align: left;
+	}
+
+	.header_button {
+		justify-content: flex-start;
+	}
+
+	.header_button .button {
+		margin: 0;
+	}
+
+	.header_button .button:first-child {
+		margin-right: 10px;
+	}
+
+	h1 {
+		padding-bottom: 30px;
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.about_content {
+		margin: 0 -15px;
+		flex-direction: row;
+		margin-bottom: 30px;
+	}
+
+	.about_first,
+	.about_second  {
+		margin: 0 15px;
+		width: calc(50% - 30px);
+	}
+
+	.about_second {
+		padding-top: 7px;
+	}
+
+	.social_link_top {
+		justify-content: flex-start;
+	}
+
+	.social_link_top .icon {
+		padding: 15px;
+	}
+
+	.team_photo {
+		margin-bottom: 30px;
+	}
+
+	.person {
+		width: calc(33.33% - 30px);
+		margin-bottom: 30px;
+	}
+
+	.pictures_button_link {
+		padding-bottom: 30px;
+	}
+
+	.features_wrap {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.features_item {
+		margin-bottom: 50px;
+		margin-left: 15px;
+		margin-right: 15px;
+		width: calc(33.33% - 30px)
+	}
+
+	.features_item_info p {
+		margin-bottom: 0;
+	}
+
+	.footer_wrap {
+		flex-direction: row;
+	}
+
+	.copyright {
+		width: 60%;
+	}
+
+	.copyright p {
+		text-align: left;
+	}
+
+	.footer_social {
+		width: 40%;
+		order: 1;
+		margin-bottom: 0;
+	}
+
+	.footer_social {
+		justify-content: flex-end;
+	}
+
+	.footer_social .icon {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width : 920px) {
+	.header_content {
+		min-height: unset;
+	}
+
+	h1,
+	h2 {
+		font-size: 36px;	
+	}
+
+	.person {
+		width: calc(25% - 30px);
+	}
+
+	.pictures_items {
+		width: calc(33.33% - 30px);
+	} 
+
+	.products_item {
+		width: calc(25% - 30px);
+	}
+
+	.features_item {
+		margin-left: 15px;
+		margin-right: 15px;
+		width: calc(33.333% - 30px);
+	}
+
+	.contact .subtitle {
+		padding-top: 30px;
+	}
+
+	.contact .map {
+		display: block;
+		position: relative;
+		padding-top: 18%;
+		margin-bottom: 30px;
+	}
+
+
+	.contact_form {
+		position: absolute;
+		top: -50%;
+		width: calc(55% - 30px);
+		padding: 30px;
+		right: 0;
+	}
+
+	.contact_info {
+		width: calc(45% - 30px);
+	}	
+}
+
+
+	
+@media only screen and (min-width : 1100px) {
+	.menu_link {
+		margin: 0 -15px;
+	}
+
+	.menu_link li {
+		margin: 24px 15px;
+	}
+
+	.header_content {
+		min-height: 660px;
+	}
+
+	.header_info {
+		padding: 210px 0 200px;
+		width: 57%;	
+	}
+
+	h1 {
+		padding-bottom: 25px;
+	}
+
+	.about_content {
+		padding-bottom: 80px;
+	}
+
+	h2.subtitle {
+		padding-top: 80px;
+	}
+
+	.team_photo {
+		margin-bottom: 95px;	
+	}
+
+
+	.pictures_button_link {
+		padding-bottom: 95px;
+	}
+
+	.services .subtitle {
+		padding-bottom: 75px;
+	}
+
+	.products {
+		margin-bottom: 25px;
+	}
+
+	.products_item {
+		margin-bottom: 70px;
+	}
+
+	.products_item .icon {
+		margin-bottom: 24px;
+	}
+
+	.features .subtitle {
+		padding-top: 85px;
+	}
+
+	.features_wrap {
+		padding-bottom: 65px;
+	}
+
+	.contact .subtitle {
+		padding: 60px 0;
+	}
+
+	.contact_box {
+		margin-bottom: 95px;
+	}
+
+	.contact_form {
+		top: -70%;
+		width: calc(50% - 30px);
+	}
+
+	.contact_info {
+		width: calc(50% - 30px);
+	}	
+
+	.footer_wrap {
+		padding: 35px 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
