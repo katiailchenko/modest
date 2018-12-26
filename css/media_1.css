@@ -308,6 +308,13 @@
 		padding-bottom: 80px;
 	}
 
+	.about_first {
+		width: calc(57% - 30px)
+	}
+	.about_second  {
+		width: calc(43% - 30px);
+	}
+
 	h2.subtitle {
 		padding-top: 80px;
 	}
